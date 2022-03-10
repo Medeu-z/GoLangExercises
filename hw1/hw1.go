@@ -43,7 +43,7 @@ func main() {
 	fmt.Println("\nTesting TopCharacters function")
 	char := "ab£aab£££"
 	m := TopCharacters(char, 3)
-	fmt.Println("Top char from ab£aab£££, char >= 3: ")
+	fmt.Println("Top char from ab£aab£££, chars wich are >= 3: ")
 	for key, value := range m {
 		fmt.Println(string(key), ": ", value)
 	}
